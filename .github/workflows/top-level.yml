@@ -25,6 +25,8 @@ jobs:
             device_tree: 'zynq-zc702'
           - defconfig: 'xilinx_zynq_virt_defconfig'
             device_tree: 'zynq-zed'
+          - defconfig: 'xilinx_zynq_virt_defconfig'
+            device_tree: 'zynq-zc706'
 
   build_aarch64:
     uses: bia1708/u-boot/.github/workflows/build.yml@ci
